@@ -1,0 +1,128 @@
+*{padding: 0;
+  margin: 0;
+}
+a{text-decoration: none;
+  color: #019b92 ;
+  margin-left: 30px;
+  
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+.header img{ width: 180px;
+}
+.menu{ 
+  margin: 0 6%; 
+}
+
+.header a{
+  font-size: 30px;
+}
+.menu a{
+  padding: 5px 5px;
+  margin-top: 100px;
+  font-size: 2em;
+}
+.menu a:hover{
+  border-bottom: 3px solid #019b92;
+}
+.main{
+  background-image: url(imagenes/fondo.jpg);
+  height: 100vh;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.textosmenu h1{
+  font-size: 70px;
+  margin-left: 50px;
+}
+.textosmenu p{
+  font-size: 30px;
+  margin-left: 50px;
+}
+.textosmenu{
+  margin-top: 20%;
+  color:#019b92;
+}
+.botones button{ 
+  border-radius: 20px;
+  border: none;
+  background-color:#0d5665 ;
+  padding: 30px 30px;
+  font-size: 1.8em ;
+  color: white;
+  margin: 30px 0px 0px 10px;
+}
+.botones{
+  margin-left: 10%;
+}
+.register{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reg{
+  width: 50%;
+}
+.reg img{
+  width: 100%;
+}
+.space{
+  background-color: #00998f;
+  border-left: 1px solid #0d5665;
+}
+.space p{
+  color: #ffffff;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 25px;
+}
+.space button{ 
+  border-radius: 20px;
+  border: none;
+  background-color:#0d5665 ;
+  padding: 15px 40px;
+  font-size: 25px;
+  color: white;
+  margin: 15px 44%;
+}
+.gale{
+  background-color: #454545;
+  width: 100%;
+  height: 100vh;
+}
+#g1{
+  width: 68%;
+  margin: 0 25%;
+}
+.varios{
+  width: 100%;
+  height: 70vh;
+}
+.faq{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #00998f;
+  margin: 30px 0;
+}
+.faq img{
+  width: 150%;
+}
+.faq h1{
+  color: #ffffff;
+  font-size: 70px;
+  padding-top: 6%;
+}
+#free{
+  padding-top: 40%;
+}
